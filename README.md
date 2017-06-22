@@ -1,4 +1,4 @@
-# optperfprofpy
+# Performance profiles in Python
 Generating performance profiles for optimization software in Python.
 
 ## Why performance profiles?
