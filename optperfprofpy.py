@@ -190,7 +190,7 @@ def draw_simple_pp(taus, solver_vals, solvers):
     
     # Add lines individually to support labels
     for n, solver in enumerate(solvers):
-        ax.step(taus, solver_vals[n, :], label=solver)
+        ax.step(taus, solver_vals[n, :], where='post', label=solver)
         
     plt.legend(loc=4)
     plt.xlim(1, taus.max())
